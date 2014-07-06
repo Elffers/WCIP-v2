@@ -6,6 +6,8 @@ class Parser
     placemarks = []
     data[:data] = placemarks
     @doc = Nokogiri::XML(File.open(document))
+    pms = @doc.css("Placemark")
+    p pms
     return data
   end
 end

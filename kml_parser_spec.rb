@@ -11,7 +11,8 @@ describe Parser do
       expect(parser.parse('sample.kml').keys.first).to eq :data
     end
     it 'should contain an array of hashes' do
-      expect(parser.parse('sample.kml')[:data]).to be_an_instance_of Array
+      expect(parser.parse('sample.kml')[:data].first).to be_an_instance_of Hash
     end
+   
   end
 end
