@@ -16,14 +16,11 @@ class Parser
     data = {}
     data[:id] = placemark.at("name").text
     data[:coords] = parse_coords placemark.at("coordinates").text
-    p data
     data 
   end
 
   def parse_coords(coordinates)
-    c = coordinates.strip
-    c = c.split(/\s/)
+    c = coordinates.strip.split(/\s/)
     c.map { |string| string.split(",") }.map {|pair| pair.reverse }
-
   end
 end
