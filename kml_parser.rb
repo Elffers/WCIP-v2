@@ -16,6 +16,7 @@ class Parser
     data = {}
     data[:id] = placemark.at("name").text
     data[:coords] = parse_coords placemark.at("coordinates").text
+    data[:linestyle] = placemark.at("styleUrl").text
     data 
   end
 

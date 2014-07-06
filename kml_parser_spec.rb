@@ -22,6 +22,10 @@ describe Parser do
       placemark = Nokogiri::XML(File.open('sample.kml')).css("Placemark").first
       expect(parser.parse_placemark(placemark)).to be_an_instance_of Hash
     end
+    it 'contains id, coord, and linestyle' do
+      placemark = Nokogiri::XML(File.open('sample.kml')).css("Placemark").first
+      expect(parser.parse_placemark(placemark).keys).to eq [:id, :coords, :linestyle]
+    end
   end 
 
   context 'parse coordinates' do
@@ -30,5 +34,3 @@ describe Parser do
     end
   end
 end
-
-
