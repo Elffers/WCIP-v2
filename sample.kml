@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.opengis.net/kml/2.2 http://schemas.opengis.net/kml/2.2.0/ogckml22.xsd http://www.google.com/kml/ext/2.2 http://code.google.com/apis/kml/schema/kml22gx.xsd">
+<Document id="Street Parking by Category">
+  <name>Street Parking by Category</name>
+  <Snippet></Snippet>
+  <Folder id="FeatureLayer0">
+    <name>Street Parking by Category</name>
+    <Snippet></Snippet>
+    <Placemark id="ID_00000">
+      <name>09115</name>
+      <Snippet></Snippet>
+      <styleUrl>#LineStyle00</styleUrl>
+      <MultiGeometry>
+        <LineString>
+          <coordinates> -122.354206,47.734092 -122.354200,47.732372 -122.354248,47.732323 -122.354303,47.732302</coordinates>
+        </LineString>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00001">
+      <name>08230</name>
+      <Snippet></Snippet>
+      <styleUrl>#LineStyle01</styleUrl>
+      <MultiGeometry>
+        <LineString>
+          <coordinates> -122.347679,47.734045 -122.347659,47.732397</coordinates>
+        </LineString>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00002">
+      <name>08230</name>
+      <Snippet></Snippet>
+      <styleUrl>#LineStyle00</styleUrl>
+      <MultiGeometry>
+        <LineString>
+          <coordinates> -122.347922,47.734043 -122.347902,47.732396</coordinates>
+        </LineString>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00003">
+      <name>06695</name>
+      <Snippet></Snippet>
+      <styleUrl>#LineStyle00</styleUrl>
+      <MultiGeometry>
+        <LineString>
+          <coordinates> -122.351719,47.734092 -122.351701,47.732350</coordinates>
+        </LineString>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00004">
+      <name>06695</name>
+      <Snippet></Snippet>
+      <styleUrl>#LineStyle00</styleUrl>
+      <MultiGeometry>
+        <LineString>
+          <coordinates> -122.351825,47.734091 -122.351824,47.734053 -122.351824,47.734047 -122.351824,47.734042 -122.351820,47.733640 -122.351820,47.733635 -122.351820,47.733629 -122.351817,47.733387 -122.351810,47.732729 -122.351807,47.732396 -122.351807,47.732374 -122.351807,47.732369 -122.351807,47.732363 -122.351806,47.732350</coordinates>
+        </LineString>
+      </MultiGeometry>
+    </Placemark>
+  </Folder>
+</Document>
+</kml>
