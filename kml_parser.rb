@@ -8,7 +8,7 @@ class Parser
     data[:data] = pms.map do |placemark|
       parse_placemark(placemark)
     end
-    return data
+    data
   end
 
   def parse_placemark(placemark)
